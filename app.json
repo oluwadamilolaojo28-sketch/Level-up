@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "LEVEL UP",
+    "slug": "level-up",
+    "version": "1.0.0",
+    "scheme": "levelup",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0B0B0D",
+    "android": {
+      "package": "com.levelup.growth",
+      "permissions": ["POST_NOTIFICATIONS"]
+    },
+    "plugins": ["expo-router", "expo-sqlite", ["expo-notifications", { "color": "#C9A227" }]]
+  }
+}
